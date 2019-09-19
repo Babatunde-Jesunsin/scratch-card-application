@@ -1,0 +1,72 @@
+<html>
+<head>
+        <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Scratch Card App</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div  class="loginbox"  >
+        <img  src="avarta.png" class="avarta">
+    <h1 style="text-align: center">SCRATCH CARD GENERATOR</h1>
+    <hr/>
+        <form class ="form">
+            <h5>CARD PRICE</h5>
+            <input type="text" name="card_price"placeholder="0" id = "price">
+            <h5>NUMBERS OF CARD</h5>
+            <input type="text" name="num"placeholder="0">
+           <p> <button id="generator" style ="background:yellow" >GENERATOR</button></p> 
+        </form>
+    </div>
+               
+    <div  class = "result" style=" overflow-y: auto;">
+
+        <h1 style="text-align: center" class ="form2">SCRATCH CARD </h1>
+        <table class="table" style="width: 80% ;color: white">
+          <thead>
+            <tr>
+              <th scope="col">id</th>
+              <th scope="col">card_price</th>
+              <th scope="col">pin</th>
+              <th scope="col">valid</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            
+          </tbody>
+        </table>
+    </div>
+
+        
+        <hr/> 
+        <p>
+
+        </p>
+         
+        
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+        crossorigin="anonymous"
+      ></script>
+        
+    <!-- <script src="./javascript.js" type="javascript"></script> -->
+
+
+    <script src="./jquery-folder/jQuery-3.4.1.js"></script>
+    <script src="./javascript.js"></script>
+
+
+    <script>
+    console.log("jquery ready to go!!!");
+    
+
+    </script>
+    </body>
+    
+</html>
