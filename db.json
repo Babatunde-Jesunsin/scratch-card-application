@@ -1,0 +1,49 @@
+{
+    "cards": [
+        {
+            "id":1,
+            "card_price": "200",
+            "pin": "145678903647",
+            "valid": "5 days"
+
+        },
+        {
+            "id": 2,
+            "card_price": "100",
+            "pin": "678235789023",
+            "valid": "5 days"
+        },
+        {
+            "id": 3,
+            "card_price": "500",
+            "pin": "245806523129",
+            "valid": "5 days"
+        },
+        {
+            "id": 4,            
+            "card_price": "400",
+            "pin": "146893456289",
+            "valid": "5 days"
+        },
+        {
+        
+            "id": 5,
+            "card_price": "1500",
+            "pin": "245678989934",
+            "valid": "5 days"
+        }],
+   "login": [
+    {
+        "id":1,
+        "username": "Dun",
+        "password": "123"
+
+
+    }
+] 
+}
+
+
+
+
+
