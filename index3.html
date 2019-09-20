@@ -2,9 +2,9 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="style3.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
   <title>Buy Your MTN Voucher</title>
 </head>
 
@@ -17,7 +17,7 @@
         <label>Select Card Price</label>
         <br/>
         <br/>
-          <select id="price" name="price">
+          <select id="price"  name="price">
               <option value="100">100</option>
               <option value="200">200</option>
               <option value="400">400</option>
@@ -33,7 +33,7 @@
             <label>Number Of Card</label>
             <br/>
             <br/>
-              <select id="price" name="price">
+              <select id="price" class='amount' name="price">
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -47,7 +47,7 @@
                 <br/>
                 <br/>
                 <br/>
-                <a class="submit" > BUY </a>
+                <a class="submit" >BUY</a>
 
         
         
@@ -60,39 +60,28 @@
     <p class="sign" align="center" >SCRATCH CARD</p>
     <form class="form1" style="color: black">
         <table style="width:88%; margin-left: 7%; margin-top: -5%" >
+          <thead>
             <tr>
-              <th>PRICE</th>
-              <th>PIN</th>
-              <th>DATE</th>
-              <th>VALIDITY</th>
-
+              <th scope="col">Price</th>
+              <th scope="col">Pin</th>
+              <th scope="col">Date</th>
+              <th scope="col">validity Date</th>
+              
+              
+              
             </tr>
-            <tr>
-              <td></td>
-              <td>13255678</td>
-              <td>50</td>
-              <td>50</td>
-            </tr>
-            <tr>
-                <td>200</td>
-                <td>13255678</td>
-                <td>50</td>
-                <td>50</td>
-              </tr>
-              <tr>
-                  <td>200</td>
-                  <td>13255678</td>
-                  <td>50</td>
-                  <td>50</td>
-                </tr>
-            <tr>
-              <td>Eve</td>
-              <td>Jackson</td>
-              <td>94</td>
-              <td>50</td>
-            </tr>
+          </thead>
+          <tbody>
+            
+            
+          </tbody>
+        </table>
+    </div>
           </table> 
     </form>
+    <script src="./jquery-folder/jQuery-3.4.1.js"></script>
+    <script type="text/javascript" src="buycard.js"></script>
+    
      
 </body>
 
