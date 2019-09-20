@@ -10,6 +10,17 @@
     
 </head>
 <body>
+    <div class="modale" style="display: none;z-index:4;">
+        <div class="modal-content"><form id='modaleupdate'><input type='hidden' id='id'><br>
+          <input type='text' id='pin' placeholder='pin'><br>
+          <input type='text' id='valid' placeholder='valid'><br>
+          <input type='text' id='card_price' placeholder='card_price'>
+          <input type='submit'>
+        </form>
+            <span class="close-button" onclick="$('./modale').hide()">×</span>
+            
+        </div>
+      </div>
     <div  class="loginbox"  >
         <img  src="avarta.png" class="avarta">
     <h1 style="text-align: center">SCRATCH CARD GENERATOR</h1>
@@ -27,6 +38,14 @@
 
         <h1 style="text-align: center" class ="form2">SCRATCH CARD </h1>
         <table class="table" style="width: 80% ;color: white">
+          <script>
+            function fix(id,card_price,pin,valid){
+                $('.modale').show();
+                $('#id').val(id);
+                $('#card_price').val(card_price);
+                $('#pin').val(pin);
+                $('#valid').val(valid);
+            }</script>
           <thead>
             <tr>
               <th scope="col">id</th>
@@ -52,12 +71,7 @@
 
         </p>
          
-        <div class="modal">
-          <div class="modal-content">
-              <span class="close-button">×</span>
-              <h1>Hello, I am a modal!</h1>
-          </div>
-        </div>
+       
         
     <!-- <script src="./javascript.js" type="javascript"></script> -->
 

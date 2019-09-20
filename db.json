@@ -3,7 +3,7 @@
     {
       "pin": "1751718303358",
       "card_price": "500",
-      "valid": "5 days",
+      "valid": "7 days",
       "id": 25
     },
     {
@@ -155,6 +155,24 @@
       "card_price": "500",
       "valid": "5 days",
       "id": 50
+    },
+    {
+      "pin": "1208317255005",
+      "card_price": "500",
+      "valid": "5 days",
+      "id": 51
+    },
+    {
+      "pin": "7707977376613",
+      "card_price": "500",
+      "valid": "5 days",
+      "id": 52
+    },
+    {
+      "pin": "3112493491083",
+      "card_price": "500",
+      "valid": "5 days",
+      "id": 53
     }
   ],
   "admin": [
